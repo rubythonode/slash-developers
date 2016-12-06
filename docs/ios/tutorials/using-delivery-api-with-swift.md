@@ -4,13 +4,8 @@ name: Using the Delivery API on Swift
 title: Using the Delivery API on Swift
 metainformation: 'This tutorial will walk you through building a simple app from start to finish.'
 slug: null
-tags:
-  - CDA
-  - iOS
-  - Mobile
-nextsteps:
-  - docsCdaIos
-  - docsCmaIos
+tags: null
+nextsteps: null
 ---
 
 Read on to find out what our iOS SDK does and how you can use it to build content-driven apps more easily. This tutorial will walk you through building a simple app from start to finish with the [product catalogue app][1] being used as an example.
@@ -53,7 +48,7 @@ client.fetchEntries(["content_type": "product"]).1.next {
 
 Each content type in Contentful has its own unique ID, you can find it by looking at the last part of the URL when you have opened it in the web app:
 
-![](content-type-id.png)
+![Content type ID](https://images.contentful.com/tz3n7fnw4ujc/24L7uCFVCk4cQc4Ug4q2cg/655027d7ec234778f757cdb2147c88f1/content-type-id.png)
 
 The [`fetchEntries(_:)`][8] method returns a tuple of `NSURLSessionDataTask`, for cancellation purposes, and a [signal][10], which will be called on completion of the request. The error is also available via `.error` and if you prefer, there is [a variant][9], which takes a completion closure instead.
 

@@ -4,9 +4,7 @@ name: Getting Started with Contentful and Laravel
 title:  Getting Started with Contentful and Laravel
 metainformation: 'This tutorial will walk you through your first steps in using Contentful within your PHP application.'
 slug: null
-tags:
-  - SDKs
-  - PHP
+tags: null
 nextsteps: null
 ---
 

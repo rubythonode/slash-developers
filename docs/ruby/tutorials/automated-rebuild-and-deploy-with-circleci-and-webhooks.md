@@ -4,10 +4,7 @@ name: Automated rebuild and deploy with CircleCI and Webhooks
 title: Automated rebuild and deploy with CircleCI and Webhooks
 metainformation: 'This guide will show you how you can automate this process using Webhooks and CircleCI.'
 slug: null
-tags:
-  - SDKs
-  - Ruby
-  - Workflow
+tags: null
 nextsteps: null
 ---
 

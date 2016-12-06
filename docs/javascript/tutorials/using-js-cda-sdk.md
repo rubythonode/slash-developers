@@ -4,12 +4,8 @@ name: Getting Started with Contentful and JavaScript
 title: Getting Started with Contentful and JavaScript
 metainformation: 'This article details how to retrieve entries using the JavaScript CDA SDK.'
 slug: null
-tags:
-  - SDKs
-  - JavaScript
-nextsteps:
-  - docsSync
-  - docsSyncApiWithJS
+tags: null
+nextsteps: null
 ---
 
 ## Overview

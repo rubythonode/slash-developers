@@ -4,11 +4,8 @@ name: Getting Started with Contentful and PHP
 title:  Getting Started with Contentful and PHP
 metainformation: 'This tutorial will walk you through your first steps in using Contentful within your PHP application.'
 slug: null
-tags:
-  - SDKs
-  - PHP
-nextsteps:
-  - docsSyncApiWithPhp
+tags: null
+nextsteps: null
 ---
 
 This tutorial will walk you through your first steps in using Contentful within your PHP application.

@@ -4,12 +4,8 @@ name: Getting Started with Contentful
 title: Getting Started with Contentful
 metainformation: 'This guide will walk you through your first steps using Contentful within a Rails application. It will provide a step-by-step guide on how to get your first entries and start using the content you create on Contentful.'
 slug: null
-tags:
-  - SDKs
-  - Ruby
-nextsteps:
-  - docsGettingStartedRubyCMA
-  - docsRubyOwnRailsProject
+tags: null
+nextsteps: null
 ---
 
 This guide will walk you through your first steps using Contentful within a Rails application. It will provide a step-by-step guide on how to get your first entries and start using the content you create on Contentful.

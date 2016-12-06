@@ -4,9 +4,7 @@ name: .NET
 title: Using Contentful with .NET
 metainformation: 'This guide shows you how to use the .Net SDK to interact with the Contentful APIs.'
 slug: null
-tags:
-  - SDKs
-  - .Net
+tags: null
 nextsteps: null
 ---
 

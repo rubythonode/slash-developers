@@ -4,12 +4,8 @@ name: PHP
 title:  Using Contentful with PHP
 metainformation: 'This guide shows you how to use the PHP SDK to interact with the Contentful APIs.'
 slug: null
-tags:
-  - SDKs
-  - PHP
-nextsteps:
-  - docsGettingStartedPhp
-  - docsSyncApiWithPhp
+tags: null
+nextsteps: null
 ---
 
 - [SDKs](#sdks)

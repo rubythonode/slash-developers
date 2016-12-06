@@ -4,12 +4,8 @@ name: Applications
 title: Applications
 metainformation: 'These applications help you use Contentful.'
 slug: null
-tags:
- - Tools
- - Extending
-nextsteps:
- - docsToolsSpaceManagement
- - docsToolsExtensions
+tags: null
+nextsteps: null
 ---
 
 ## macOS media uploader

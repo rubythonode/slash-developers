@@ -4,12 +4,8 @@ name: Getting started with Contentful and Symfony
 title: Getting started with Contentful and Symfony
 metainformation: 'This tutorial will show you how to setup the ContentfulBundle in your Symfony application and how to access you content inside the framework.'
 slug: null
-tags:
- - PHP
- - SDKs
-nextsteps:
- - docsGettingStartedPhp
- - docsGettingStartedLaravel
+tags: null
+nextsteps: null
 ---
 
 This tutorial will show you how to setup the ContentfulBundle in your Symfony application and how to access you content

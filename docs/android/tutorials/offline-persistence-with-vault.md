@@ -4,12 +4,8 @@ name: Offline persistence with Vault on Android
 title: Offline persistence with Vault on Android
 metainformation: 'This tutorial shows you how to get offline access to your Contentful content.'
 slug: null
-tags:
-- Offline
-- Content model
-nextsteps:
- - docsContentfulCma
- - docsSync
+tags: null
+nextsteps: null
 ---
 
 In this tutorial we will walk through the essential steps of settings up Vault with your Android project. For that, we've open-sourced [DroidStory][droidstory], which is a simple app showcasing several best practices for integrating Vault in an Android project.
@@ -45,7 +41,7 @@ Now that we have our dependencies ready to go, let's move over to the code.
 The DroidStory space has a single content type, `Story`, which contains the following fields:
 
 {: .img}
-![Story Content Type](story-fields.png)
+![Story Content Type](https://images.contentful.com/tz3n7fnw4ujc/1QaeE17cuIKqsiAkwKmc40/592db63458b0a59ddf5f93ce678958f6/story-fields.png)
 
 In order to create a Vault model corresponding to this type, we need to create a class that extends the `Resource` class. We use the `@ContentType` and `@Field` annotations from Vault to give the library hints about the relevant pieces. Let's look at [Story.java][story_java] as an example:
 
@@ -66,12 +62,12 @@ public final class Story extends Resource {
 Notice that long value `5RFNQmUj5Y6aAggqAswiqK`? That's the ID of the `Story` content type. If you already know how to find it, move over to the next section. Otherwise, simply log-in to the Contentful web app, go to your content model, select the desired content type, and copy the last path segment of the URL.
 
 {: .img}
-![Story Content Type ID](content-type-id.png)
+![Story Content Type ID](https://images.contentful.com/tz3n7fnw4ujc/2YhBUbipHOYacOmUmc0CIE/6f41e004f56f99d43c5a46175dabe1a4/content-type-id.png)
 
 `@Field` elements are automatically mapped when the name of the variable matches the field ID, you can find the field ID with the web user-interface:
 
 {: .img}
-![Codename field ID](field-codename.png)
+![Codename field ID](https://images.contentful.com/tz3n7fnw4ujc/5VlByufMPuMme0cKyoquSI/eab0523a4270dd5f6c5dd85824a2cb89/field-codename.png)
 
 `@Field` elements can point to other resources, this is what we call links/references. Since the `images` field is a reference to many `Media` resources, we declare it as a `List`. Later when we use Vault to fetch these resources as objects, the links will be automatically resolved.
 

@@ -4,12 +4,8 @@ name: Offline Persistence in the iOS SDK
 title: Offline Persistence in the iOS SDK
 metainformation: 'This tutorial shows you how to get offline access to your Contentful content.'
 slug: null
-tags:
-- Offline
-- Content model
-nextsteps:
- - docsContentfulCma
- - docsSync
+tags: null
+nextsteps: null
 ---
 
 There are basically two approaches for getting content for offline use (or for any use for that matter):

@@ -4,12 +4,8 @@ name: Synchronization
 title: Synchronization
 metainformation: 'The Sync API allows you to keep a local copy of all content in a space up-to-date via delta updates, or content that has changed.'
 slug: null
-tags:
-  - Basics
-  - Content model
-nextsteps:
-  - docsSyncApiWithPhp
-  - docsOfflinePersistenceIos
+tags: null
+nextsteps: null
 ---
 
 The Sync API allows you to keep a local copy of all content in a space up-to-date via [delta updates](https://en.wikipedia.org/wiki/Delta_update), or content that has changed.

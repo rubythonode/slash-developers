@@ -4,9 +4,7 @@ name: Creating an Express JavaScript application with Contentful
 title: Creating an Express JavaScript application with Contentful
 metainformation: 'This guide will walk you through your first steps using Contentful with an Express Node.js application.'
 slug: null
-tags:
-  - JavaScript
-  - SDKs
+tags: null
 nextsteps: null
 ---
 
@@ -61,7 +59,7 @@ Everything is now set up. You can view your new data by opening _http://localhos
 
 It should look something like this:
 
-![Express js Demo Application](./default_website.png)
+![Express js Demo Application](https://images.contentful.com/tz3n7fnw4ujc/5dDie9nWkwKWAaqcIWmoSU/ad1878388550c6f8e7821675451d366d/A6D4F97E-7975-4FA8-9AD6-7571774A06EE.png_dl_1)
 
 ### Using your own content
 
@@ -71,7 +69,7 @@ You can create your own custom data by following these steps:
 - Create a new Space with the 'Product Catalogue' template, name it whatever you like.
 - Copy the space Id and API key as shown in the screenshot
 
-![Keys Page](keys_and_ids.png)
+![Keys Page](https://images.contentful.com/tz3n7fnw4ujc/3NHMiPiuh2Sgo0KYcc4UqK/9041b5ea8c1a703e7764ecc27f8badbd/3F7D8F12-EE78-4C79-93A7-1A964B285262.png_dl_1)
 
 - In the Express js application:
 
