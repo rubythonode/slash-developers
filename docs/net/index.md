@@ -4,7 +4,9 @@ name: .NET
 title: Using Contentful with .NET
 metainformation: 'This guide shows you how to use the .Net SDK to interact with the Contentful APIs.'
 slug: null
-tags: null
+tags:
+  - SDKs
+  - .Net
 nextsteps: null
 ---
 
@@ -15,23 +17,22 @@ nextsteps: null
 
 Our SDKs give you access to our [APIs](/developers/docs/concepts/apis/) and their features.
 
-{: .note}
-**Note**: We don't have an official .NET SDK, but if you would like to start developing, you can use the [HTTP endpoints](/developers/docs/concepts/apis/) or the third party SDK listed below, which is **not supported**.
+### Content Delivery and Content Management APIs SDK
 
-### Content Delivery API SDK
+This SDK interacts with the Content Delivery (CDA) and Content Management (CMA) APIs.
 
-This SDK interacts with the Content Delivery API, a read-only API for retrieving content from Contentful. All content, both JSON and binary, is fetched from the server closest to a user's location using our global CDN.
+The CDA is a read-only API for retrieving content from Contentful. All content, both JSON and binary, is fetched from the server closest to a user's location using our global CDN.
 
-[View on GitHub](https://github.com/ryan-codingintrigue/Contentful.NET)
+The CMA integration allows you to create, edit, manage, and publish content, and offers tools for managing editorial teams and cooperation.
 
-**This library is not officially supported**
+[View on GitHub](https://github.com/contentful/contentful.net)
 
 ## Tutorials
 
 ### API demo
 
-[This guide](/developers/api-demo/ruby/) is the perfect starting point to learn how to make calls to Contentful APIs, explains what responses look like, and suggest next steps.
+[This guide](/developers/api-demo/curl/) is the perfect starting point to learn how to make calls to Contentful APIs, explains what responses look like, and suggest next steps.
 
 ### Getting started with the Content Delivery API SDK and .Net
 
-[This tutorial](https://github.com/ryan-codingintrigue/Contentful.NET) will walk you through the first steps using the Content Delivery API with a .Net application.
+[This tutorial](/developers/docs/net/tutorials/using-net-cda-sdk/) will walk you through the first steps using the Content Delivery API with a .Net application.

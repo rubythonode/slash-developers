@@ -4,7 +4,9 @@ name: Scheduling Posts
 title: Scheduling Posts
 metainformation: 'This guide will show you how to manage the publishing time of content.'
 slug: null
-tags: null
+tags:
+  - Customization
+  - Workflow
 nextsteps: null
 ---
 

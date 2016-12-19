@@ -4,7 +4,8 @@ name: Synchronizing Spaces with contentful-space-sync
 title: Synchronizing Spaces with contentful-space-sync
 metainformation: 'This article details how to retrieve entries using the JavaScript CDA SDK.'
 slug: null
-tags: null
+tags:
+  - Workflow
 nextsteps: null
 ---
 

@@ -4,7 +4,9 @@ name: Applications
 title: Applications
 metainformation: 'These applications help you use Contentful.'
 slug: null
-tags: null
+tags:
+ - Tools
+ - Extending
 nextsteps: null
 ---
 

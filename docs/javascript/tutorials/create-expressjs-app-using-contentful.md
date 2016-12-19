@@ -4,8 +4,14 @@ name: Creating an Express JavaScript application with Contentful
 title: Creating an Express JavaScript application with Contentful
 metainformation: 'This guide will walk you through your first steps using Contentful with an Express Node.js application.'
 slug: null
-tags: null
-nextsteps: null
+tags:
+  - JavaScript
+  - SDKs
+nextsteps:
+  - text: Using the Contentful Delivery API in a JavaScript app
+    link: /developers/docs/javascript/tutorials/using-js-cda-sdk/
+  - text: How to only update content that has changed
+    link: /developers/docs/javascript/tutorials/using-the-sync-api-with-js/
 ---
 
 This guide will walk you through your first steps using Contentful with an Express Node.js application. It will provide a step-by-step guide on how to get your first entries and start using the content you create on Contentful.
@@ -134,7 +140,7 @@ Do you like building static sites? Check how to build static sites using Content
 [10]: https://github.com/contentful/product-catalogue-js
 [11]: https://github.com/contentful-labs/contentful-metalsmith-example
 [12]: https://git-scm.com/downloads
-[14]: https://devcenter.heroku.com/articles/heroku-command-line#download-and-install
+[14]: https://devcenter.heroku.com/articles/heroku-cli#download-and-install
 [2]: https://nodejs.org
 [3]: https://github.com/contentful/contentful_express_tutorial
 [5]: /sign-up/#starter

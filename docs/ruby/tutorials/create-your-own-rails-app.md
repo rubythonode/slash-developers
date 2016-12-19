@@ -4,7 +4,9 @@ name: Using Contentful with a Ruby on Rails app
 title: Using Contentful with a Ruby on Rails app
 metainformation: 'This guide shows you how to use Contentful in Rails application created from scratch.'
 slug: null
-tags: null
+tags:
+  - SDKs
+  - Ruby
 nextsteps: null
 ---
 

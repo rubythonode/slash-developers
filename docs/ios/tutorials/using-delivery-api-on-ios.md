@@ -4,8 +4,15 @@ name: Using the Delivery API on iOS
 title: Using the Delivery API on iOS
 metainformation: 'This guide will show you what our iOS SDK does and how you can use it to build content-driven apps.'
 slug: null
-tags: null
-nextsteps: null
+tags:
+  - CDA
+  - iOS
+  - Mobile
+nextsteps:
+  - text: Using our management API with Objective-C
+    link: /developers/docs/ios/tutorials/using-management-api-on-ios/
+  - text: Using the delivery API with Swift
+    link: /developers/docs/ios/tutorials/using-delivery-api-with-swift/
 ---
 
 Read on to find out what our iOS SDK does and how you can use it to build content-driven apps more easily. The [coffee guide app][1] will provide an example and walk you through building a simple app from start to finish.

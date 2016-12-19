@@ -4,8 +4,12 @@ name: Locales
 title: Locales
 metainformation: 'If you are working with content that needs to be available in multiple languages, locales let you define localizations of content and select a specific locale when querying the Content Delivery API.'
 slug: null
-tags: null
-nextsteps: null
+tags:
+  - Basics
+  - Content model
+nextsteps:
+  - text: Content Management API reference
+    link: /developers/docs/references/content-management-api/
 ---
 
 Locales are a feature of Contentful's [paid plans](/pricing/). If you are working with content that needs to be available in multiple languages, locales let you define localizations of content and select a specific locale when querying the Content Delivery API.

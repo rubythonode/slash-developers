@@ -4,7 +4,9 @@ name: Extensions
 title: Extensions
 metainformation: 'These extensions add extra functionality to Contentful, you can find detailed instructions in each individual GitHub repository.'
 slug: null
-tags: null
+tags:
+ - Tools
+ - Extending
 nextsteps: null
 ---
 

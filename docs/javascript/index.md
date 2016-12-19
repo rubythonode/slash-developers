@@ -4,7 +4,9 @@ name: JavaScript
 title: Using Contentful with JavaScript
 metainformation: 'Our SDKs give you access to our APIs and their features.'
 slug: null
-tags: null
+tags:
+  - Basics
+  - SDKs
 nextsteps: null
 ---
 

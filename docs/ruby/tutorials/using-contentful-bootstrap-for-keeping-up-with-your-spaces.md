@@ -4,8 +4,12 @@ name: Contentful Bootstrap
 title: Contentful Bootstrap
 metainformation: 'This tutorial will walk you through your first steps in using Contentful Bootstrap to get you jump-started in Contentful.'
 slug: null
-tags: null
-nextsteps: null
+tags:
+  - Workflow
+  - Ruby
+nextsteps:
+  - text: Create and deploy a Ruby application with Contentful
+    link: /developers/docs/ruby/tutorials/full-stack-getting-started/
 ---
 
 This post will walk you through your first steps in using [Contentful Bootstrap][1] to get you jump-started in Contentful.

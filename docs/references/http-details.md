@@ -4,8 +4,12 @@ name: HTTP details
 title: HTTP details
 metainformation: 'The Content Delivery API and Preview API are fully available via SSL. You should request JSON data and assets through a secure transport.'
 slug: null
-tags: null
-nextsteps: null
+tags:
+ - Reference
+ - Network
+nextsteps:
+ - text: Details of our error messages
+   link: /developers/docs/references/errors/
 ---
 
 ## Security

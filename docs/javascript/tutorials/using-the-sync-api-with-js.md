@@ -4,8 +4,12 @@ name: Using the Sync API with JavaScript
 title: Using the Sync API with JavaScript
 metainformation: 'The sync API allows you to keep a local copy of all content of a space up to date via delta updates. This tutorial will show you how to use the Sync API with the Contentful JavaScript SDK.'
 slug: null
-tags: null
-nextsteps: null
+tags:
+  - Basics
+  - Content model
+nextsteps:
+ - text: Further details on our Syncronization endpoint
+   link: /developers/docs/references/content-delivery-api/#/reference/synchronization/
 ---
 
 The [sync](/developers/docs/concepts/sync/) API allows you to keep a local copy of all content of a space up to date via delta updates. This tutorial will show you how to use the Sync API with the Contentful JavaScript SDK.

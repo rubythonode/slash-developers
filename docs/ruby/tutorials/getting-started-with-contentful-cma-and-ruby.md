@@ -4,8 +4,12 @@ name: Getting Started with Ruby and the CMA
 title: Getting Started with Ruby and the CMA
 metainformation: 'This post will walk you through your first steps in using the Contentful Management API within your Ruby applications.'
 slug: null
-tags: null
-nextsteps: null
+tags:
+  - SDKs
+  - Ruby
+nextsteps:
+  - text: Create and deploy a Ruby application with Contentful
+    link: /developers/docs/ruby/tutorials/full-stack-getting-started/
 ---
 
 This post will walk you through your first steps in using [Contentful Management API][0]

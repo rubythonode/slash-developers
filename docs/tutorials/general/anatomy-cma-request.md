@@ -4,7 +4,10 @@ name: Anatomy of a CMA Request
 title: Anatomy of a CMA Request
 metainformation: 'This article is a comprehensive exposure to managing content via the Content Management API. In the end, you should be able to write custom applications and scripts using our API.'
 slug: null
-tags: null
+tags:
+  - API
+  - Request
+  - Advanced
 nextsteps: null
 ---
 ## Overview

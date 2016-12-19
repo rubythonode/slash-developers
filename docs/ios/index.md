@@ -4,7 +4,9 @@ name: iOS
 title: Using Contentful with iOS
 metainformation: 'Our SDKs give you access to our APIs and their features.'
 slug: null
-tags: null
+tags:
+  - Basics
+  - SDKs
 nextsteps: null
 ---
 

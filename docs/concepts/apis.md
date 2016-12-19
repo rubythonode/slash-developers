@@ -4,7 +4,9 @@ name: API basics
 title: Four content APIs
 metainformation: 'Contentful is an API first content management system, offering four REST APIs for working with your content. Each of these APIs serve a different purpose, so which one to use depends on what you want to do.'
 slug: null
-tags: null
+tags:
+  - API
+  - Basics
 nextsteps: null
 ---
 

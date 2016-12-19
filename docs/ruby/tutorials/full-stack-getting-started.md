@@ -4,8 +4,14 @@ name: Getting Started with Contentful
 title: Getting Started with Contentful
 metainformation: 'This guide will walk you through your first steps using Contentful within a Rails application. It will provide a step-by-step guide on how to get your first entries and start using the content you create on Contentful.'
 slug: null
-tags: null
-nextsteps: null
+tags:
+  - SDKs
+  - Ruby
+nextsteps:
+  - text: The Contentful Management API reference
+    link: /developers/docs/references/content-management-api/
+  - text: The Contentful Delivery API reference
+    link: /developers/docs/references/content-delivery-api/
 ---
 
 This guide will walk you through your first steps using Contentful within a Rails application. It will provide a step-by-step guide on how to get your first entries and start using the content you create on Contentful.
@@ -91,7 +97,7 @@ You can continue to edit your content inside the [Contentful web app][13] and se
 
 To view the demo application live in your own production environment, follow these steps:
 
-- Install the [Heroku toolbelt](https://devcenter.heroku.com/articles/heroku-command-line#download-and-install) if you don't already have it.
+- Install the [Heroku toolbelt](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) if you don't already have it.
 - Login to Heroku if you're not already:
 
 ~~~bash

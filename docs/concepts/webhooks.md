@@ -4,8 +4,16 @@ name: Webhooks
 title: Webhooks
 metainformation: 'Webhooks extend the integration possibilities by notifying you, another person or system when content (assets, entries or content types) have changed by calling a pre-configured HTTP endpoint.'
 slug: null
-tags: null
-nextsteps: null
+tags:
+  - Customization
+  - Workflow
+nextsteps:
+  - docsToolsExtensions
+nextsteps:
+  - text: Integrate Contentful with other services via Webhooks
+    link: /developers/docs/concepts/webhooks/
+  - text: Tools and libraries to make your Contentful experience better
+    link: /developers/docs/tools/extensions/
 ---
 
 Webhooks extend the integration possibilities by notifying you, another person or system when content (assets, entries or content types) have changed by calling a pre-configured HTTP endpoint.
