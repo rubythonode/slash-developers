@@ -17,6 +17,7 @@ IMAGES_HOST=https://images.contentful.com
 DREDD=node_modules/.bin/dredd
 HERCULE=node_modules/.bin/hercule
 APIARY=bundle exec apiary
+AGLIO=node_modules/.bin/aglio
 
 .PHONY: all outdir clean fetch preview test install prepare check_ci_var check_apiary_token check_cma_token notify_slack publish publish_docs
 
@@ -63,10 +64,15 @@ prepare: $(CDA_BLUEPRINT) $(CPA_BLUEPRINT) $(CMA_BLUEPRINT) $(IMAGES_BLUEPRINT)
 	done
 
 preview: check_apiary_token prepare
-	$(APIARY) preview --path=$(CDA_BLUEPRINT)
-	$(APIARY) preview --path=$(CMA_BLUEPRINT)
-	$(APIARY) preview --path=$(CPA_BLUEPRINT)
-	$(APIARY) preview --path=$(IMAGES_BLUEPRINT)
+	# $(APIARY) preview --path=$(CDA_BLUEPRINT)
+	# $(APIARY) preview --path=$(CMA_BLUEPRINT)
+	# $(APIARY) preview --path=$(CPA_BLUEPRINT)
+	# $(APIARY) preview --path=$(IMAGES_BLUEPRINT)
+	$(AGLIO) -i $(CDA_BLUEPRINT) --theme-template triple -o example/CDA.html
+	$(AGLIO) -i $(CMA_BLUEPRINT) --theme-template triple -o example/CMA.html
+	$(AGLIO) -i $(CPA_BLUEPRINT) --theme-template triple -o example/CPA.html
+	$(AGLIO) -i $(IMAGES_BLUEPRINT) --theme-template triple -o example/IMAGES.html
+
 
 publish: check_apiary_token check_ci_var install prepare publish_docs notify_slack
 
